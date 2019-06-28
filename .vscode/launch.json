@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SingletonBreakByReflection",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SingletonBreakByReflection",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingletonBreakByDeseralization",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SingletonBreakByDeseralization",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SingletonBreakByClone",
             "request": "launch",
             "mainClass": "com.masterjavaonline.core.singleton.SingletonBreakByClone",

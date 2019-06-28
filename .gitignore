@@ -7,6 +7,7 @@
 
 .vscode
 *.vscode
+.vscode/
 
 # OS Files #
 .DS_Store
