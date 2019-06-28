@@ -26,7 +26,6 @@ public class Department implements Cloneable {
 	 * 
 	 */
 	public Department() {
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
@@ -37,8 +36,7 @@ public class Department implements Cloneable {
 	}
 
 	/**
-	 * @param dept_id
-	 *            the dept_id to set
+	 * @param dept_id the dept_id to set
 	 */
 	public void setDept_id(int dept_id) {
 		this.dept_id = dept_id;
@@ -52,8 +50,7 @@ public class Department implements Cloneable {
 	}
 
 	/**
-	 * @param dept_name
-	 *            the dept_name to set
+	 * @param dept_name the dept_name to set
 	 */
 	public void setDept_name(String dept_name) {
 		this.dept_name = dept_name;

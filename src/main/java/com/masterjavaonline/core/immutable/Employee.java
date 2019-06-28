@@ -45,12 +45,11 @@ public class Employee {
 		dept.setDept_id(this.dept.getDept_id());
 		dept.setDept_name(this.dept.getDept_name());
 
-		/*try {
-			return dept.clone();
-		} catch (CloneNotSupportedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
+		/*
+		 * try { return dept.clone(); } catch (CloneNotSupportedException e) {
+		 * 
+		 * e.printStackTrace(); }
+		 */
 		return dept;
 	}
 

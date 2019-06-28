@@ -6,8 +6,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
 
-public class SingletonBreakByDeseralization {
+public class SingletonBreakByDeseralization implements Serializable {
 
+    private static final long serialVersionUID = 1L;
     private static SingletonBreakByDeseralization instance = new SingletonBreakByDeseralization();
 
     private SingletonBreakByDeseralization() {
@@ -31,7 +32,9 @@ public class SingletonBreakByDeseralization {
         FileInputStream inputStream = new FileInputStream("file.dat");
         ObjectInputStream in = new ObjectInputStream(inputStream);
         ObjectInputStream inNew = new ObjectInputStream(inputStream);
-
+        in.close();
+        inNew.close();
+        inputStream.close();
         // code to serialize object goes here
         // code to deserialize saved object here
         SingletonBreakByDeseralization newObject = (SingletonBreakByDeseralization) in.readObject();
