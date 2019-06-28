@@ -20,15 +20,15 @@ public class Parent {
         System.out.println(i);
     }
 
-    // public void print(Integer i) {
-    // System.out.println(i);
-    // }
+    public void print(Integer i) {
+        System.out.println(i);
+    }
 
     public static void main(String[] args) {
         Parent p = new Parent();
         p.print(new Object());
         p.print("obj");
-        p.print(null);
+        // p.print(null);
         p.print(10);
 
     }

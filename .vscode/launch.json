@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Child",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.overrloading_overriding.Child",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Parent",
             "request": "launch",
             "mainClass": "com.masterjavaonline.core.overrloading_overriding.Parent",
