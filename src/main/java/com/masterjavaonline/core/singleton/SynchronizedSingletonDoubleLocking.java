@@ -10,11 +10,12 @@ package com.masterjavaonline.core.singleton;
 public class SynchronizedSingletonDoubleLocking {
 
 	// private static calss instance
-	private static SynchronizedSingletonDoubleLocking singletonClass1 = null;
+	private static SynchronizedSingletonDoubleLocking singletonClass = null;
 
 	// private constructure
 	private SynchronizedSingletonDoubleLocking() {
 
+		System.out.println("Singleton Class Synchronized Dobuble Locking Instalization");
 	}
 
 	// returnning class instance by using getInstance() method
@@ -26,24 +27,29 @@ public class SynchronizedSingletonDoubleLocking {
 	// applications.
 
 	public static SynchronizedSingletonDoubleLocking getInstance() {
-		if (singletonClass1 == null) {
+		if (singletonClass == null) {
 			// synchronized block to remove overhead
 			synchronized (SynchronizedSingletonDoubleLocking.class) {
 				// if instance is null, initialize
-				if (singletonClass1 == null) {
-					singletonClass1 = new SynchronizedSingletonDoubleLocking();
+				if (singletonClass == null) {
+					singletonClass = new SynchronizedSingletonDoubleLocking();
 				}
 			}
 		}
-		return singletonClass1;
+		return singletonClass;
 	}
 
-	/**
-	 * 
-	 */
-	public void printMsg() {
+	public static void main(String[] args) {
 
-		System.out.println("Synchronized Singleton Double Locking ");
+		// instantiating Singleton class with variable obj1
+		SynchronizedSingletonDoubleLocking obj1 = SynchronizedSingletonDoubleLocking.getInstance();
+
+		// instantiating Singleton class with variable obj2
+		SynchronizedSingletonDoubleLocking obj2 = SynchronizedSingletonDoubleLocking.getInstance();
+
+		// instantiating Singleton class with variable obj3
+		SynchronizedSingletonDoubleLocking obj3 = SynchronizedSingletonDoubleLocking.getInstance();
+
 	}
 
 }

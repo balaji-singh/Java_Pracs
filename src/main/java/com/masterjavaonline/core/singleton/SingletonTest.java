@@ -15,17 +15,17 @@ public class SingletonTest {
 	public static void main(String[] args) {
 
 		SingletonLazyInstilization singletonClass = SingletonLazyInstilization.getInstance();
-		singletonClass.printMsg();
+		// singletonClass.printMsg();
 
 		SynchronizedSingleton synchronizedSingletonClass1 = SynchronizedSingleton.getInstance();
-		synchronizedSingletonClass1.printMsg();
+		// synchronizedSingletonClass1.printMsg();
 
 		SynchronizedSingletonDoubleLocking synchronizedSingletonClass2 = SynchronizedSingletonDoubleLocking
 				.getInstance();
-		synchronizedSingletonClass2.printMsg();
+		// synchronizedSingletonClass2.printMsg();
 
 		BillPughSingleton synchronizedSingletonClass3 = BillPughSingleton.getInstance();
-		synchronizedSingletonClass3.printMsg();
+		// synchronizedSingletonClass3.printMsg();
 
 	}
 

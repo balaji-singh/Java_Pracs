@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HashMapTest",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.collections.HashMapTest",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashMap",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.collections.HashMap",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingletonEagerClassStaticBlock",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SingletonEagerClassStaticBlock",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingletonEagerClass",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SingletonEagerClass",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BillPughSingleton",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.BillPughSingleton",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedSingletonDoubleLocking",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SynchronizedSingletonDoubleLocking",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SynchronizedSingleton",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SynchronizedSingleton",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingletonLazyInstilization",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.singleton.SingletonLazyInstilization",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Child",
             "request": "launch",
             "mainClass": "com.masterjavaonline.core.overrloading_overriding.Child",
