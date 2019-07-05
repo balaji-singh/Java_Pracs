@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InterfaceImpl",
+            "request": "launch",
+            "mainClass": "com.masterjavaonline.core.interfaces.InterfaceImpl",
+            "projectName": "Java_Pracs"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HashMapTest",
             "request": "launch",
             "mainClass": "com.masterjavaonline.core.collections.HashMapTest",
